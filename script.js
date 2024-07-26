@@ -2,81 +2,61 @@ let inputElement = document.getElementById('input');
 let button = document.getElementById("button")
 let resultElement = document.getElementById("result")
 let responseElement = document.getElementById("response")
-let i = 0
 let round = 1
 
 function check(ans) {
     value1=inputElement.value
     if (value1 == ans){
         responseElement.textContent = "Correct!"
-        i = 1
+        return true;
     } else {
         responseElement.textContent = "Wrong!"
+        return false;
     }
 }
 
 function button_click(){
     button.addEventListener("click", function(){
       if (round == 1){
-        while(i == 0){
-            check("general")
+        if (check("general") == true){
+            round = round + 1
         }
-        round = round + 1
-        i = 0
       } else if (round == 2) {
-          while(i == 0){
-            check("derive")
-          }
-          round = round + 1
-          i = 0
+        if (check("derive") == true){
+            round = round + 1
+        }
       } else if (round == 3) {
-          while(i == 0){
-            check("release")
-          }
-          round = round + 1
-          i = 0
+        if (check("release") == true){
+            round = round + 1
+        }
       } else if (round == 4) {
-            while(i == 0){
-             check("feature")
-            }
+        if (check("feature") == true){
             round = round + 1
-            i = 0
+        }
       } else if (round == 5) {
-            while(i == 0){
-                check("gossip")
-            }
+        if (check("gossip") == true){
             round = round + 1
-            i = 0
+        }
       } else if (round == 6) {
-            while(i == 0){
-                check("reveal")
-            }
+        if (check("reveal") == true){
             round = round + 1
-            i = 0
+        }
       } else if (round == 7) {
-            while(i == 0){
-                check("chase")
-            }
+        if (check("chase") == true){
             round = round + 1
-            i = 0
+        }
       } else if (round == 8) {
-            while(i == 0){
-                check("brand")
-            }
+        if (check("brand") == true){
             round = round + 1
-            i = 0
+        }
       } else if (round == 9) {
-            while(i == 0){
-                check("edit")
-            }
+        if (check("edit") == true){
             round = round + 1
-            i = 0
+        }
       } else if (round == 10) {
-            while(i == 0){
-                check("image")
-            }
+        if (check("image") == true){
             round = round + 1
-            i = 0
+        }
       }
     })
 } 

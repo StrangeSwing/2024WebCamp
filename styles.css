@@ -1,5 +1,5 @@
 .background{
-    background-color: #F3EEE9;
+    background-color: #b7cdb7;/*4f674f*/
 }
 .container {
     width: 100%;
@@ -26,6 +26,6 @@
     margin: auto;
     margin-top: 3%;
 }
-/*.AnswerArea{
-    margin-top: 8%;
-}*/
+.AnswerArea{
+    margin-top: -4.5%;
+}
