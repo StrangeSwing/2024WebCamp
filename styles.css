@@ -8,19 +8,6 @@
     justify-content: center;
     margin-top: 8%;
 }
-
-.Box {
-    width: 750px;
-    height: 350px;
-    background-color:#1D3354;
-    border-radius: 20px;
-    opacity: 0.4;
-    margin-top: 8%;
-    margin-left: 25%;
-    
-}
-
-
 .Answer{
     width: 900px;
     height: 35px;
@@ -31,14 +18,14 @@
 }
 .AnswerButton{
     border-color: #1D3354;
-    margin-top: 8%;
+    margin-top: 0%;
 }
-.test {
-    height: 350px;
-    width: 350px;
+.image {
+    height: 60%;
+    width: 60%;
     margin: auto;
-    margin-top: 8%;
+    margin-top: 3%;
 }
 /*.AnswerArea{
-    margin-top: 300px;
+    margin-top: 8%;
 }*/
