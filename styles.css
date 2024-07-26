@@ -1,6 +1,11 @@
 .background{
-    background-color: #b7cdb7;/*4f674f*/
+    background-color: #f0f0f0;/*4f674f*/ /*b7cdb7*/
 }
+
+body{
+    background-color: #f0f0f0;/*4f674f*/ /*b7cdb7*/
+}
+
 .container {
     width: 100%;
     height: 100vh;
@@ -8,6 +13,7 @@
     justify-content: center;
     margin-top: 8%;
 }
+
 .Answer{
     width: 900px;
     height: 35px;
@@ -16,16 +22,46 @@
     margin-top: 8%;
     margin-left: 20%;
 }
+
 .AnswerButton{
     border-color: #1D3354;
     margin-top: 0%;
 }
+
 .image {
     height: 60%;
     width: 60%;
     margin: auto;
-    margin-top: 3%;
+    margin-top: 5%;
 }
+
 .AnswerArea{
     margin-top: -4.5%;
 }
+
+.fixed-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    color: #3b0404;/*seem nothing*/
+    padding: 10px;
+}
+
+.nav{
+    color: #888;
+}
+
+.home head{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 500px;
+    margin-left: 500px;
+    font-style: #ed786a;
+}
+
+
+
+
+
+
