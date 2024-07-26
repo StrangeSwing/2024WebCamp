@@ -1,5 +1,5 @@
 body{
-    background-color: #C9E4F5;
+    background-color: #ff0000;
 }
 .container {
     width: 100%;
@@ -39,9 +39,6 @@ body{
     margin: auto;
     margin-top: 8%;
 }
-.input{
-    margin-top: 500px;
-}
-.button{
-    margin-top: 500px;
-}
+/*.AnswerArea{
+    margin-top: 300px;
+}*/
