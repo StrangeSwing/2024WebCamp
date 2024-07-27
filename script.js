@@ -7,7 +7,7 @@ let round = 1
 function check(ans) {
     let value1=inputElement.value
     ans = String(ans)
-    str(value1)
+    value1 = String(value1)
     if (value1 == ans){
         responseElement.textContent = "Correct!"
         return true;
@@ -66,3 +66,6 @@ function button_click(){
 for (a=1; a <= 10; a++) {
     button_click()
 }
+
+
+
