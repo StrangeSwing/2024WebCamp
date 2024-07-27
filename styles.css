@@ -35,7 +35,7 @@ body{
 }
 
 .AnswerArea{
-    margin-top: -4.5%;
+    margin-top: -5%;
 }
 
 .fixed-div {
@@ -101,7 +101,8 @@ body{
 }
 
 .response{
-    color: #ed786a;
+    color: white;
+    background-color: rgba(0,0,0,0.6);
     display: flex;
     justify-content: center;
     margin-top: 70px;

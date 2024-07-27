@@ -60,6 +60,7 @@ function button_click(){
             round = round + 1
         }
       }
+      responseElememt.textContent = " ";
     })
 } 
 
