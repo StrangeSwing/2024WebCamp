@@ -6,6 +6,8 @@ let round = 1
 
 function check(ans) {
     let value1=inputElement.value
+    ans = String(ans)
+    str(value1)
     if (value1 == ans){
         responseElement.textContent = "Correct!"
         return true;

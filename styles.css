@@ -38,15 +38,15 @@ body{
     margin-top: -4.5%;
 }
 
-.fixed-div {
+/*.fixed-div {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: (249,249,249);
-    color: #3b0404;/*seem nothing*/
+    background-color: rgb(249,249,249);
+    color: #3b0404;
     padding: 10px;
-}
+}*/
 
 .nav{
     color: #888;
@@ -92,6 +92,9 @@ body{
     color: #000;
 }
 
+.carousel-control-next-icon{
+    background-color: #000;
+}
 
 
 
