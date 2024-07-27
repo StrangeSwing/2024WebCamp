@@ -24,7 +24,6 @@ body{
 }
 
 .AnswerButton{
-    border-color: #1D3354;
     margin-top: 0%;
 }
 
@@ -88,6 +87,9 @@ body{
 
 .home little head{
     color: #888;
+}
+.visually-hidden{
+    color: #000;
 }
 
 
