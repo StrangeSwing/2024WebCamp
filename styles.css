@@ -65,6 +65,7 @@ body{
     color: #888;
     display: flex;
     justify-content: center;
+    margin-bottom: 260px;
 }
 .footer {
     background-color: #f0f0f0;
