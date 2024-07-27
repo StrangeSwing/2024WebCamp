@@ -63,9 +63,8 @@ function button_click(){
     })
 } 
 
-for (a=1; a <= 10; a++) {
-    button_click()
-}
+button_click()
+
 
 
 

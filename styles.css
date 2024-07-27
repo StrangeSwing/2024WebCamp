@@ -31,7 +31,7 @@ body{
     height: 60%;
     width: 60%;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 0px;
 }
 
 .AnswerArea{
@@ -104,12 +104,34 @@ body{
     color: #ed786a;
     display: flex;
     justify-content: center;
+    margin-top: 70px;
 }
 
 
 .carousel-indicators{
     background-color: rgba(50,50,50,0.4)
-    
+}
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 120px;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.btn btn-primary{
+    background-color: #ed786a;
 }
 
 
