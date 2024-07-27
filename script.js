@@ -5,7 +5,7 @@ let responseElement = document.getElementById("response")
 let round = 1
 
 function check(ans) {
-    value1=inputElement.value
+    let value1=inputElement.value
     if (value1 == ans){
         responseElement.textContent = "Correct!"
         return true;

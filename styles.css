@@ -53,10 +53,19 @@ body{
     color: #888;
 }
 
-.home head{
+.home-head{
     color: #ed786a;
+    margin-top: 250px;
+    margin-left: 600px;
+    font-size: 80px;
+    display: flex;
 }
 
+.home-little-head{
+    color: #888;
+    display: flex;
+    justify-content: center;
+}
 .footer {
     background-color: #f0f0f0;
     color:888;
@@ -73,6 +82,7 @@ body{
 .footer-p{
     padding: 80px;
     color: #888;
+    
 }
 
 .home little head{
