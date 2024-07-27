@@ -54,8 +54,6 @@ body{
 }
 
 .home head{
-    margin-top: 500px;
-    margin-left: 500px;
     color: #ed786a;
 }
 
@@ -74,7 +72,13 @@ body{
 
 .footer-p{
     padding: 80px;
+    color: #888;
 }
+
+.home little head{
+    color: #888;
+}
+
 
 
 
